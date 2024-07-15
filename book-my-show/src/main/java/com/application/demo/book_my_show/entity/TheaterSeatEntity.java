@@ -22,7 +22,7 @@ public class TheaterSeatEntity {
     @Enumerated(value = EnumType.STRING)
     private SeatType seatType;
 
-    private int seatNo;
+    private String seatNo;
 
     @JoinColumn
     @ManyToOne
