@@ -33,4 +33,5 @@ public class MovieService {
         List<MovieEntity> movieEntityList = movieRepository.findByLanguage(language);
         return movieEntityList;
     }
+
 }

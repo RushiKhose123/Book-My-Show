@@ -6,7 +6,7 @@ import com.application.demo.book_my_show.requestdtos.ShowRequestDto;
 public class ShowConvertor {
 
     public static ShowEntity convertShowRequestDtoToShowEntity(ShowRequestDto showRequestDto){
-        ShowEntity showEntity = ShowEntity.builder().showDateTime(showRequestDto.getShow_date_time())
+        ShowEntity showEntity = ShowEntity.builder().showDateTime(showRequestDto.getShowDateTime())
                 .showType(showRequestDto.getShowType()).build();
 
         return showEntity;

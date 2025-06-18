@@ -8,7 +8,7 @@ import java.util.Date;
 @Data
 public class ShowRequestDto {
 
-    private Date show_date_time;
+    private Date showDateTime;
 
     private ShowType showType;
 
@@ -19,4 +19,5 @@ public class ShowRequestDto {
     private double classicSeatPrice;
 
     private double premiumSeatPrice;
+
 }
